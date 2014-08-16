@@ -26,8 +26,8 @@ public class Assets implements Disposable, AssetErrorListener {
 		this.assetManager = assetManager;
 		// set asset manager error handler
 		assetManager.setErrorListener(this);
-		assetManager.load("music/11 - Bruno Mars  - locked out of heaven (2).mp3",
-				Music.class);
+//		assetManager.load("music/11 - ",
+//				Music.class);
 		// load texture atlas
 		assetManager.load(Constants.TEXTURE_ATLAS_OBJECTS,
 				TextureAtlas.class);
@@ -55,7 +55,7 @@ public class Assets implements Disposable, AssetErrorListener {
 		// create game resource objects
 		bottle = new AssetBottle(atlas);
 		circle = new AssetCircle(atlas);
-		music = new AssetMusic(assetManager);
+//		music = new AssetMusic(assetManager);
 		sounds = new AssetSounds(assetManager);
 	}
 	@Override
@@ -84,7 +84,7 @@ public class Assets implements Disposable, AssetErrorListener {
 	public class AssetMusic {
 		public final Music song01;
 		public AssetMusic (AssetManager am) {
-			song01 = am.get("music/11 - Bruno Mars  - locked out of heaven (2).mp3",
+			song01 = am.get("music/11 -",
 					Music.class);
 		}
 	}
