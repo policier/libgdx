@@ -1,0 +1,26 @@
+
+spin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Circle
+  rotate: false
+  xy: 1, 85
+  size: 502, 394
+  orig: 502, 394
+  offset: 0, 0
+  index: -1
+bunny_head
+  rotate: false
+  xy: 1, 1
+  size: 122, 82
+  orig: 122, 82
+  offset: 0, 0
+  index: -1
+bottle
+  rotate: false
+  xy: 125, 3
+  size: 24, 80
+  orig: 24, 80
+  offset: 0, 0
+  index: -1

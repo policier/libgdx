@@ -1,0 +1,16 @@
+d:
+d:data
+i:data/Circle.png
+i:data/item_gold_coin.png
+i:data/libgdx.png
+d:images
+t:images/spin.pack
+i:images/spin.png
+d:music
+a:music/11 - Bruno Mars  - locked out of heaven (2).mp3
+d:sounds
+a:sounds/blue.wav
+a:sounds/green.wav
+a:sounds/red.wav
+a:sounds/start.wav
+a:sounds/Yellow.wav
