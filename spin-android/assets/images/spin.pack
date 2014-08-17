@@ -3,9 +3,16 @@ spin.png
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-Circle
+bottle
   rotate: false
   xy: 1, 85
+  size: 320, 640
+  orig: 320, 640
+  offset: 0, 0
+  index: -1
+Circle
+  rotate: false
+  xy: 323, 331
   size: 502, 394
   orig: 502, 394
   offset: 0, 0
@@ -15,12 +22,5 @@ bunny_head
   xy: 1, 1
   size: 122, 82
   orig: 122, 82
-  offset: 0, 0
-  index: -1
-bottle
-  rotate: false
-  xy: 125, 3
-  size: 24, 80
-  orig: 24, 80
   offset: 0, 0
   index: -1
